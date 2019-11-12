@@ -15,6 +15,15 @@ end
 
 introduction_with_language("Estelle", "Ruby")
 
+def introduction_with_language_optional(name, language = "computer")
+  puts "Hello #{name}. We heard you were a great #{language} programmer."
+end
+
+introduction_with_language_optional ("Estelle","Ruby")
+introduction_with_language_optional ("Estelle")
+
+
+
 
 
 
