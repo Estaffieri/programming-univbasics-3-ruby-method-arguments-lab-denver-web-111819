@@ -15,7 +15,7 @@ end
 
 introduction_with_language("Estelle", "Ruby")
 
-def introduction_with_language_optional(name, language = "Ruby")
+def introduction_with_language_optional (name, language = "Ruby")
   puts "Hello #{name}. We heard you were a great #{language} programmer."
 end
 
